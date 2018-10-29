@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/brain_levelbg"
+tools:context="gamedevelopers.funcandi.taskworkflow.Puzzles.Puzzle1">
+
+
+
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:textAlignment="center"
+    android:textSize="18sp"
+    android:layout_marginTop="70dp"
+    android:textColor="#000"
+    android:text="How many holes are there?"/>
+
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_marginTop="45dp"
+    android:background="@drawable/brain_shirt"
+    android:layout_below="@+id/textView2"
+    android:layout_centerHorizontal="true" />
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="51dp"
+    android:text="1"
+    android:background="@drawable/brain_op_buttonanim"
+    android:layout_marginStart="36dp"
+    android:layout_below="@+id/imageView"
+    android:layout_alignStart="@+id/textView2" />
+
+<Button
+    android:id="@+id/button3"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:text="2"
+    android:background="@drawable/brain_op_buttonanim"
+    android:layout_alignBottom="@+id/button2"
+    android:layout_toEndOf="@+id/button2"
+    android:layout_marginStart="30dp" />
+
+<Button
+    android:id="@+id/button4"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/brain_op_buttonanim"
+    android:text="5"
+    android:layout_marginTop="15dp"
+    android:layout_below="@+id/button2"
+    android:layout_alignStart="@+id/button2" />
+
+<Button
+    android:id="@+id/button5"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/brain_op_buttonanim"
+    android:layout_alignStart="@+id/button3"
+    android:layout_alignTop="@+id/button4"
+    android:text="6" />
+
+<ImageView
+    android:id="@+id/imageView2"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_below="@+id/imageView"
+    android:visibility="invisible"
+    android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

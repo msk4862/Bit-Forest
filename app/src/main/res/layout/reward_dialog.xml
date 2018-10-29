@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@android:color/transparent"
+    >
+
+
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:background="@drawable/reward"
+        android:layout_marginTop="13dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:background="@drawable/plank" />
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="330dp"
+        android:layout_height="80dp"
+        android:background="@drawable/plank"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="310dp"
+        android:layout_height="80dp"
+        android:background="@drawable/plank"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="330dp"
+        android:layout_height="80dp"
+        android:background="@drawable/plank"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="340dp"
+        android:layout_height="90dp"
+        android:background="@drawable/plank"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/paper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/paper"
+        android:layout_marginTop="8dp"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/bitimage"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/bitcoin"/>
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reward Cryptocoins"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/bitimage"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="#d0664d"/>
+
+    <TextView
+        android:id="@+id/rewardcoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btc_fa"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/head"
+        android:layout_centerHorizontal="true"
+        android:textSize="50sp"
+        android:textColor="#d0664d"/>
+
+    <!--<ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/ps"
+        android:padding="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="70dp"
+        android:layout_alignEnd="@+id/paper" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/coupons"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/paper"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="80dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/freetoys"
+        android:layout_alignStart="@+id/paper"
+        android:layout_alignBottom="@+id/imageView9"
+        android:layout_marginStart="10dp"/>
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:background="@drawable/vr"
+        android:padding="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_alignBottom="@+id/imageView8" />
+-->
+    <Button
+        android:id="@+id/close"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/cross"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/title"
+        android:layout_marginTop="30dp"/>
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView5"-->
+        <!--android:layout_width="330dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:TWF_background="@drawable/TWF_plank"-->
+        <!--android:layout_alignTop="@+id/imageView2"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="72dp" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView6"-->
+        <!--android:layout_width="330dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:TWF_background="@drawable/TWF_plank"-->
+        <!--android:layout_alignTop="@+id/imageView2"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="72dp" />-->
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wheelbg1"
+    tools:context="gamedevelopers.funcandi.taskworkflow.WheelActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#FFFFEE7D"
+        android:textSize="35sp"/>
+
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/stand"
+        android:layout_marginBottom="77dp"
+        android:layout_marginEnd="47dp"
+        android:layout_alignTop="@+id/wheel"
+        android:layout_marginTop="290dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="spin"
+        android:textSize="30sp"
+        android:textColor="#FFFFEE7D"
+        android:background="@drawable/wheel_buttonanime"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+    <ImageView
+    android:id="@+id/wheel"
+    android:scaleType="centerInside"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+        android:background="@drawable/wheel"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:id="@+id/pointer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/wheel_pointer"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/wheel"
+        android:layout_marginBottom="260dp"/>
+
+</RelativeLayout>

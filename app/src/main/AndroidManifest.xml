@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gamedevelopers.funcandi.taskworkflow">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/bitcoin"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/bitcoin"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Level1" />
+        <activity android:name=".level1.Task1" />
+        <activity android:name=".level1.Task2" />
+        <activity android:name=".level1.Task3" />
+        <activity android:name=".Level2" />
+        <activity android:name=".level2.Task1" />
+        <activity android:name=".level2.Task2" />
+        <activity android:name=".level2.Task3" />
+        <activity android:name=".Level3" />
+        <activity android:name=".level3.Task1" />
+        <activity android:name=".level3.Task2" />
+        <activity android:name=".level3.Task3" />
+        <activity android:name=".level4.Task1" />
+        <activity android:name=".level4.Task2" />
+        <activity android:name=".level4.Task3" />        <activity android:name=".level5.Task1" />
+        <activity android:name=".level5.Task2" />
+        <activity android:name=".level5.Task3" />
+        <activity android:name=".WheelActivity" />
+        <activity android:name=".Intro.LaunchActivity" />
+        <activity android:name=".Intro.PlayAgainActivity" />
+        <activity android:name=".Intro.PlayerSelect" />
+        <activity android:name=".Intro.ui.EndActivity" />
+        <activity android:name=".Intro.ui.StoryActivity" />
+        <activity android:name=".Intro.ui.MainActivity" />
+        <activity android:name=".Intro.ui.QuizActivity1" />
+        <activity android:name=".game1.MainActivity" />
+        <activity android:name=".game1.Game"/>
+        <activity android:name=".Intro.ui.QuizActivity2"/>
+        <activity android:name=".Intro.ui.QuizActivity3"/>
+        <activity android:name=".Intro.ui.QuizActivity4"/>
+        <activity android:name=".Intro.ui.QuizActivity5"/>
+        <activity android:name=".Intro.ui.StoryActivity1" />
+        <activity android:name=".Intro.ui.StoryActivity2" />
+        <activity android:name=".Intro.ui.StoryActivity3" />
+        <activity android:name=".Intro.ui.StoryActivity4" />
+
+        <activity android:name=".Intro.PlayAgainActivity1" />
+        <activity android:name=".Intro.PlayAgainActivity2" />
+        <activity android:name=".Intro.PlayAgainActivity3" />
+        <activity android:name=".Intro.PlayAgainActivity4" />
+
+
+
+        <activity android:name=".LauncherActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Puzzles.Puzzle1" />
+        <activity android:name=".Level4" />
+        <activity android:name=".Level5"></activity>
+    </application>
+
+</manifest>

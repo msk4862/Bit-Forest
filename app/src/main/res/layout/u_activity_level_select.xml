@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/underworld_back1"
+    tools:context="gamedevelopers.funcandi.underworld.LevelSelect">
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="67dp"
+        android:layout_marginStart="74dp"
+        android:background="@drawable/underworld_button"
+        android:text="EASY" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="72dp"
+        android:background="@drawable/underworld_button"
+        android:text="HARD" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:alpha="0.6"
+        android:textSize="25sp"
+        android:text="Choose Level"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp" />
+
+    </RelativeLayout>

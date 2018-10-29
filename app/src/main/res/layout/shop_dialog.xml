@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@android:color/transparent"
+    >
+
+
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:background="@drawable/shop"
+        android:layout_marginTop="13dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:background="@drawable/plank" />
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="330dp"
+        android:layout_height="80dp"
+        android:background="@drawable/plank"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="310dp"
+        android:layout_height="80dp"
+        android:background="@drawable/plank"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="330dp"
+        android:layout_height="80dp"
+        android:background="@drawable/plank"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="340dp"
+        android:layout_height="90dp"
+        android:background="@drawable/plank"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/paper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/paper"
+        android:layout_marginTop="8dp"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+
+<!--Chests-->
+<GridView
+    android:id="@+id/grid_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:numColumns="2"
+    android:stretchMode="columnWidth"
+    android:layout_below="@+id/bestc"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:gravity="center"
+    android:smoothScrollbar="true"
+    android:layout_marginBottom="30dp">
+
+ <!--   <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:TWF_background="@drawable/TWF_intel"
+        android:padding="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@+id/TWF_title"
+        android:layout_marginTop="80dp"
+        android:layout_alignEnd="@+id/TWF_paper" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:TWF_background="@drawable/TWF_creative"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/TWF_paper"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="80dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:TWF_background="@drawable/TWF_creative"
+        android:layout_alignStart="@+id/TWF_paper"
+        android:layout_alignBottom="@+id/imageView9"
+        android:layout_marginStart="20dp"/>
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:TWF_background="@drawable/TWF_creative"
+        android:padding="10dp"
+        android:layout_alignBottom="@+id/imageView8"
+        android:layout_alignEnd="@+id/imageView10" />-->
+
+
+</GridView>
+
+    <!--Chests End-->
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/cross"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/title"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:id="@+id/bestc"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/title"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/twf_bestchoice" />
+
+    <ImageView
+        android:id="@+id/mostp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/title"
+        android:layout_alignBottom="@+id/bestc"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/mostpop" />
+
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/twf_bg2"
+    tools:context="gamedevelopers.funcandi.taskworkflow.level4.Task1">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/paper" />
+
+    <Button
+        android:id="@+id/com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/plankblank"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:text="Upload Image"
+        android:textSize="20sp"
+        android:textColor="#fff"/>
+
+
+    <Button
+        android:id="@+id/back1"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:background="@drawable/twf_back"
+        android:text=""
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView2"
+        android:text="TASK"
+        android:textSize="50sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="top"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/title" />
+
+    <TextView
+        android:id="@+id/task"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="#8b5243"
+        android:textSize="25sp"
+        android:textAlignment="center"/>
+
+</RelativeLayout>
